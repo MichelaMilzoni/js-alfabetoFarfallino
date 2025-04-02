@@ -18,6 +18,8 @@ for (let i = 0; i < userWord.length; i++) {
     } else {
         newWord += character;
     }
+    // operatore ternario (if, else):
+    // newWorld += vowel.includes(character ? character + "f" + character :) 
 }
 
 // OUTPUT
