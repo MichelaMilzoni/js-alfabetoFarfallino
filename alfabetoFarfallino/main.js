@@ -1,6 +1,6 @@
 // RACCOLTA DATI
 const userWord = prompt(`Inserisci una parola`, `Ciao`);
-const vowel = "aeiouAEIOU"; //variabile che contiene tutte le vocali (array contain)
+const vowel = [`a`, `e`, `i`, `o`, `u`, `A`, `E`, `I`, `O`, `U`]; //variabile che contiene tutte le vocali (array contain)
 let newWord = ""; // variabile modificata
 
 // SVOLGIMENTO
@@ -23,4 +23,13 @@ for (let i = 0; i < userWord.length; i++) {
 }
 
 // OUTPUT
+alert(newWord);
 console.log(newWord);
+
+
+
+
+// per le vocali .toLowercase
+//  trasforma in funzione che accetta 2 argomenti:
+// parola
+// lettera da inserire opzionale il default è F
